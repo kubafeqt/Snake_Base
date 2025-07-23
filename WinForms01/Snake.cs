@@ -29,7 +29,7 @@ namespace WinForms01
 
       public int x { get; set; }
       public int y { get; set; }
-      public int startX, startY;
+      //public int startX, startY;
       public Queue<Point> snakePointQueue = new Queue<Point>();
 
       public Point failPos = new Point();
