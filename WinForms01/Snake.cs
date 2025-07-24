@@ -20,7 +20,7 @@ namespace WinForms01
          none
       }
 
-      public Direction direction;
+      public Direction direction {  get; set; }
       public Direction directionKeyDown = Direction.none;
 
       public int snakeLength { get; set; }
@@ -29,7 +29,7 @@ namespace WinForms01
 
       public int x { get; set; }
       public int y { get; set; }
-      //public int startX, startY;
+
       public Queue<Point> snakePointQueue = new Queue<Point>();
 
       public Point failPos = new Point();
